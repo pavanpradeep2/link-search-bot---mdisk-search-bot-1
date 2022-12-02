@@ -11,7 +11,7 @@ async def ForceSub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="You Are Ban To Use Me. Contact My [GreyMatter's Bot](https://www.telegram.dog/greymatter_bots).",
+                text="You Are Ban To Use Me. Contact My [roiderff](https://www.telegram.dog/roiderff).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
